@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://2.4 Hoppy_Days_Assets.zip/GFX/Environment/ground_cake.png" type="Texture" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 191.282, 44.0784 )
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 514.707, 179.093 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Player"]
+position = Vector2( 139.67, 310.989 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="Player/StaticBody2D"]
+position = Vector2( 722.336, 114.517 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player/StaticBody2D/Sprite"]
+position = Vector2( -2.45544, -3.68323 )
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
