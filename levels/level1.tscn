@@ -1,29 +1,66 @@
 [gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Player.tscn" type="PackedScene" id=1]
-[ext_resource path="res://2.4 Hoppy_Days_Assets.zip/GFX/Environment/ground_cake.png" type="Texture" id=2]
+[ext_resource path="res://icon.png" type="Texture" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 191.282, 44.0784 )
+extents = Vector2( 32.3001, 31.8 )
 
 [node name="Node2D" type="Node2D"]
+position = Vector2( 192.654, 132.242 )
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 514.707, 179.093 )
+position = Vector2( 202.862, -62.2822 )
 
-[node name="StaticBody2D" type="StaticBody2D" parent="Player"]
-position = Vector2( 139.67, 310.989 )
+[node name="floor" type="StaticBody2D" parent="."]
+editor/display_folded = true
+position = Vector2( 901.404, 662.597 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Sprite" type="Sprite" parent="Player/StaticBody2D"]
-position = Vector2( 722.336, 114.517 )
+[node name="CollisionShape2D" type="CollisionShape2D" parent="floor"]
+scale = Vector2( 10, 10 )
+shape = SubResource( 1 )
+one_way_collision_margin = 0.0
+
+[node name="Sprite" type="Sprite" parent="floor"]
+scale = Vector2( 10, 10 )
 texture = ExtResource( 2 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Player/StaticBody2D/Sprite"]
-position = Vector2( -2.45544, -3.68323 )
-shape = SubResource( 1 )
+[node name="floor3" type="StaticBody2D" parent="."]
+editor/display_folded = true
+position = Vector2( 249.23, 538.962 )
 __meta__ = {
 "_edit_group_": true
 }
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="floor3"]
+scale = Vector2( 10, 10 )
+shape = SubResource( 1 )
+one_way_collision_margin = 0.0
+
+[node name="Sprite" type="Sprite" parent="floor3"]
+scale = Vector2( 10, 10 )
+texture = ExtResource( 2 )
+
+[node name="floor2" type="StaticBody2D" parent="."]
+editor/display_folded = true
+position = Vector2( 1550.49, 742.959 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="floor2"]
+scale = Vector2( 10, 10 )
+shape = SubResource( 1 )
+one_way_collision_margin = 0.0
+
+[node name="Sprite" type="Sprite" parent="floor2"]
+scale = Vector2( 10, 10 )
+texture = ExtResource( 2 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 473.622, 157.015 )
+current = true
+zoom = Vector2( 3, 3 )
