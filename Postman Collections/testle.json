@@ -30,7 +30,7 @@
           }
         }
       ],
-      "_postman_id": "665f1245-b842-4456-93da-bbca16eb20e8",
+      "id": "665f1245-b842-4456-93da-bbca16eb20e8",
       "protocolProfileBehavior": {
         "disableBodyPruning": true,
         "disabledSystemHeaders": {}
@@ -103,7 +103,7 @@
           }
         }
       ],
-      "_postman_id": "9b90bd9a-f32d-4bc3-9a12-3da2af294efa",
+      "id": "9b90bd9a-f32d-4bc3-9a12-3da2af294efa",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -157,10 +157,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n    \"message\": \"/n test my new /n message\"\n}",
-          "options": {
-            "raw": {}
-          }
+          "raw": "{\n    \"message\": \"/n test my new /n message\"\n}"
         },
         "url": "http://bcp.inf.test.xxx.com/api/rules/5260"
       },
@@ -168,7 +165,29 @@
     },
     {
       "name": "test.com",
-      "_postman_id": "a72024b6-f4df-46f0-a7e1-34c32fad7c01",
+      "id": "a72024b6-f4df-46f0-a7e1-34c32fad7c01",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"message\": \"test my \\n new brand new \\n message this is me testing the \\n newline would that be imported \\n lorem ipsum test \\n another new line will be placed somewhere here \\n and then right a way another newline here \\n to see if it works\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "test.com"
+      },
+      "response": []
+    },
+    {
+      "name": "test.com Copy",
+      "id": "e5b861cb-278a-4d3c-b017-3f5bcf9d24c7",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
