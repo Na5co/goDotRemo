@@ -1,0 +1,214 @@
+{
+  "info": {
+    "_postman_id": "902cd0d6-4e71-431a-b685-2d9c888d3b94",
+    "name": "TEST-COL",
+    "description": "Тест",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Tst",
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "id": "866ac805-cb54-440e-bce0-3f1c1bb6ec67",
+            "exec": [
+              ""
+            ],
+            "type": "text/javascript"
+          }
+        },
+        {
+          "listen": "test",
+          "script": {
+            "id": "4c9d1948-779d-4ae6-878e-aa050e21304b",
+            "exec": [
+              ""
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "_postman_id": "665f1245-b842-4456-93da-bbca16eb20e8",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true,
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Length",
+            "value": "25",
+            "type": "text",
+            "disabled": true
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"message\": \"1\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{host}}"
+      },
+      "response": [
+        {
+          "id": "e5c66543-b9a8-4bb2-bd78-654d008dd76b",
+          "name": "Tst",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Length",
+                "value": "25",
+                "type": "text",
+                "disabled": true
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"message\": \"1\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": "{{host}}"
+          },
+          "_postman_previewlanguage": "json",
+          "header": null,
+          "cookie": [],
+          "responseTime": null,
+          "body": ""
+        }
+      ]
+    },
+    {
+      "name": "http://bcp.inf.test.xxx.com/api/rules/5260",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "8c69ffe6-148b-47b2-a10a-4b1d48de33b5",
+            "exec": [
+              ""
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "_postman_id": "9b90bd9a-f32d-4bc3-9a12-3da2af294efa",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Proxy-Connection",
+            "value": "keep-alive"
+          },
+          {
+            "key": "Pragma",
+            "value": "no-cache"
+          },
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          },
+          {
+            "key": "DNT",
+            "value": "1"
+          },
+          {
+            "key": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json;charset=UTF-8"
+          },
+          {
+            "key": "Origin",
+            "value": "http://bcp.inf.test.xxx.com"
+          },
+          {
+            "key": "Referer",
+            "value": "http://bcp.inf.test.xxx.com/rules/edit/5260"
+          },
+          {
+            "key": "Accept-Language",
+            "value": "zh-CN,zh;q=0.9"
+          },
+          {
+            "key": "Cookie",
+            "value": "_lxsdk_cuid=17a57d3773cc8-07f00292caac5c-171f4b58-1ea000-17a57d3773cc8; _lxsdk=17a57d3773cc8-07f00292caac5c-171f4b58-1ea000-17a57d3773cc8; s_u_745896=\"Qfqn11Er+gvACWBJFitN0g==\"; u=31642868; 30b22ff13a_ssoid=eAGFzjFLw0AYgGFuK52kIDhmbAsh991d7i5OJk2CY8FBcJG7y91YF8XFwTi4ieIgVBEciiKIXQQrVFc3J4cObhLMP3ATBXH2B7wvTwPNPZZL3vPL9dc0IE2KNSHOAVWLHi-U5VHBlRWCSU6lYq5LrTHOCK4jm7yhVmfV6hVjB3YH8iRL4jRjMSQhzvMEsjBNWC_HEvdikXrnV9PhU9BG5N-x_BEtf57MZg9B__X97GYS7CFoNmNjNrYGm_3tojVf311Wh_fV0UE13v-4KOvbUT0uF5C3Oxl22r_NMWr84U4RwaJgkTbga-W0z6SKfA0R9QunuNBUU6XEOnCKMSUSJGdszbMA1BLJhehSJsJIcSq0Lhx3oDkAfAPDkWtG**eAEFwQkBwDAIA0BLC08BOYUM_xJ6h2tywgCMuEGYld7_KLUXNRk2saec2ZZOZ_MT0-Xe1YsHHI4Rhw; s_m_id_3299326472=\"AwMAAAA5AgAAAAEAAAE9AAAALKy+/IJNKlncf0BzCJViWM9P4/66XN4sLnwaLe185+y+ER80KhfbVGekWHu/AAAAI5IZ+kbPi5pYX8C1p755G+lPPfHa3CIACJK67we7SpF9B/LI\"; _lxsdk_s=17bca74dc9c-55a-948-613%7C%7C192"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"message\": \"/n test my new /n message\"\n}",
+          "options": {
+            "raw": {}
+          }
+        },
+        "url": "http://bcp.inf.test.xxx.com/api/rules/5260"
+      },
+      "response": []
+    },
+    {
+      "name": "test.com",
+      "_postman_id": "a72024b6-f4df-46f0-a7e1-34c32fad7c01",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"message\": \"test my \\n new brand new \\n message this is me testing the \\n newline would that be imported \\n lorem ipsum test \\n another new line will be placed somewhere here \\n and then right a way another newline here \\n to see if it works\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "test.com"
+      },
+      "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "id": "9ebc6aed-ea23-497c-9135-a9d506390f77",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "id": "abde3d74-1a89-4817-a58e-8c53c30e6292",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ]
+}
