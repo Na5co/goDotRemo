@@ -24,7 +24,7 @@
           "script": {
             "id": "4c9d1948-779d-4ae6-878e-aa050e21304b",
             "exec": [
-              "console.log(pm.request)"
+              ""
             ],
             "type": "text/javascript"
           }
