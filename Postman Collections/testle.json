@@ -54,7 +54,7 @@
             }
           }
         },
-        "url": "{{host}}"
+        "url": "postman-echo.com/get"
       },
       "response": [
         {
