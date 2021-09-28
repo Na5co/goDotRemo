@@ -232,17 +232,17 @@
     {
       "listen": "prerequest",
       "script": {
-        "id": "5697922b-fe24-4a65-8a10-dd071e60f44c",
+        "id": "fa8a9670-ce96-4c79-993d-73142e95fd95",
         "type": "text/javascript",
         "exec": [
-          "setTimeout(function(){}, 10000);"
+          ""
         ]
       }
     },
     {
       "listen": "test",
       "script": {
-        "id": "30e3b245-bbc7-48bd-b800-cac5c2f72418",
+        "id": "30133db7-e263-4d1c-866b-d792e5e44049",
         "type": "text/javascript",
         "exec": [
           ""
