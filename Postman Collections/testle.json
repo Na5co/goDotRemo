@@ -230,10 +230,10 @@
     {
       "listen": "prerequest",
       "script": {
-        "id": "8f0138d6-5421-47d3-9560-6fa2809a549b",
+        "id": "d06ca637-f8c5-4c6b-823c-c6c00e28146d",
         "type": "text/javascript",
         "exec": [
-          "if(pm.info.requestName != \"ReplaceWithYourRequestName\" && pm.info.interation){",
+          "if(pm.info.requestName != \"ReplaceWithYourRequestName\" && pm.info.interation === 1){",
           "    setTimeout(function(){}, 10000);",
           "}",
           ""
@@ -243,7 +243,7 @@
     {
       "listen": "test",
       "script": {
-        "id": "450ad194-9dc6-4847-9687-21bb55a7ad92",
+        "id": "b65247eb-923b-467a-9460-86b7671d3fc0",
         "type": "text/javascript",
         "exec": [
           ""
