@@ -195,6 +195,18 @@
     },
     {
       "name": "test.com Copy",
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "id": "1bafecc9-7d7d-4b2d-a319-1e70b86647ca",
+            "exec": [
+              "console.log(pm.info.iteration)"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
       "id": "e5b861cb-278a-4d3c-b017-3f5bcf9d24c7",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
