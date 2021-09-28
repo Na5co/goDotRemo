@@ -7,7 +7,7 @@
   },
   "item": [
     {
-      "name": "Tst",
+      "name": "test",
       "event": [
         {
           "listen": "prerequest",
