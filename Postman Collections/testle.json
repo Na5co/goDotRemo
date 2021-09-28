@@ -232,7 +232,7 @@
     {
       "listen": "prerequest",
       "script": {
-        "id": "9ebc6aed-ea23-497c-9135-a9d506390f77",
+        "id": "32148b50-a3c5-4bfc-b220-6d63d1c6d918",
         "type": "text/javascript",
         "exec": [
           ""
@@ -242,10 +242,10 @@
     {
       "listen": "test",
       "script": {
-        "id": "abde3d74-1a89-4817-a58e-8c53c30e6292",
+        "id": "dbad0496-b750-4c47-bb83-91cbcf53dabb",
         "type": "text/javascript",
         "exec": [
-          ""
+          "setTimeout(function(){}, 5000);"
         ]
       }
     }
