@@ -14,7 +14,7 @@
           "script": {
             "id": "866ac805-cb54-440e-bce0-3f1c1bb6ec67",
             "exec": [
-              "console.log(pm.iteration)"
+              "console.log(pm.info)"
             ],
             "type": "text/javascript"
           }
