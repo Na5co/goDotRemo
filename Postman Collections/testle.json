@@ -171,7 +171,13 @@
       },
       "request": {
         "method": "GET",
-        "header": [],
+        "header": [
+          {
+            "key": "",
+            "value": "",
+            "type": "text"
+          }
+        ],
         "body": {
           "mode": "raw",
           "raw": "{\n    \"message\": \"test my \\n new brand new \\n message this is me testing the \\n newline would that be imported \\n lorem ipsum test \\n another new line will be placed somewhere here \\n and then right a way another newline here \\n to see if it works\"\n}",
@@ -181,7 +187,7 @@
             }
           }
         },
-        "url": "test.comasdad"
+        "url": "postman-echo.com/get"
       },
       "response": []
     },
