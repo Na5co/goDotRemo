@@ -230,10 +230,10 @@
     {
       "listen": "prerequest",
       "script": {
-        "id": "bbb09a5b-335f-424d-a156-f669729fd3bd",
+        "id": "425b054e-eef0-40eb-8d55-4908e7bee4ed",
         "type": "text/javascript",
         "exec": [
-          "console.log(pm.request.name)",
+          "console.log(pm.info.requestName)",
           "setTimeout(function(){}, 10000);"
         ]
       }
@@ -241,7 +241,7 @@
     {
       "listen": "test",
       "script": {
-        "id": "e8f66c35-f917-4f9e-9a06-ad8b29cf9c2f",
+        "id": "2eb8f645-99f8-463c-a447-88bbb57b032c",
         "type": "text/javascript",
         "exec": [
           ""
