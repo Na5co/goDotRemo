@@ -232,20 +232,20 @@
     {
       "listen": "prerequest",
       "script": {
-        "id": "4802ef9d-d3a9-4a73-86c6-0621ffd3da3f",
+        "id": "5697922b-fe24-4a65-8a10-dd071e60f44c",
         "type": "text/javascript",
         "exec": [
-          ""
+          "setTimeout(function(){}, 10000);"
         ]
       }
     },
     {
       "listen": "test",
       "script": {
-        "id": "b1b0c946-5b7e-489b-bd40-2cea9bce064c",
+        "id": "30e3b245-bbc7-48bd-b800-cac5c2f72418",
         "type": "text/javascript",
         "exec": [
-          "setTimeout(function(){}, 10000);"
+          ""
         ]
       }
     }
