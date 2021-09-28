@@ -159,7 +159,7 @@
           "mode": "raw",
           "raw": "{\n    \"message\": \"/n test my new /n message\"\n}"
         },
-        "url": "http://bcp.inf.test.xxx.com/api/rules/5260"
+        "url": "postman-echo.com/post"
       },
       "response": []
     },
