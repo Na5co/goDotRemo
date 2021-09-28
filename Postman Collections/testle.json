@@ -14,7 +14,7 @@
           "script": {
             "id": "866ac805-cb54-440e-bce0-3f1c1bb6ec67",
             "exec": [
-              "console.log(pm.request)"
+              ""
             ],
             "type": "text/javascript"
           }
@@ -24,9 +24,7 @@
           "script": {
             "id": "4c9d1948-779d-4ae6-878e-aa050e21304b",
             "exec": [
-              "pm.test(\"Status code is 200\", function () {",
-              "    pm.response.to.have.status(200);",
-              "});"
+              "console.log(pm.request)"
             ],
             "type": "text/javascript"
           }
