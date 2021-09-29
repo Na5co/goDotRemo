@@ -47,7 +47,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "",
+          "raw": "{\n    \"test\": {{$randomUUID}}\n}",
           "options": {
             "raw": {
               "language": "json"
