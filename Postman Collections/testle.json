@@ -47,30 +47,14 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "",
+          "raw": "{\n    \"test\": {{$randomUUID}}\n}",
           "options": {
             "raw": {
               "language": "json"
             }
           }
         },
-        "url": {
-          "raw": "postman-echo.com/post?test={{$randomUUID}}",
-          "host": [
-            "postman-echo",
-            "com"
-          ],
-          "path": [
-            "post"
-          ],
-          "query": [
-            {
-              "key": "test",
-              "value": "{{$randomUUID}}",
-              "type": "text"
-            }
-          ]
-        }
+        "url": "postman-echo.com/post"
       },
       "response": [
         {
