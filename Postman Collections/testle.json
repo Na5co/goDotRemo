@@ -54,7 +54,7 @@
             }
           }
         },
-        "url": "postman-echo.com/get"
+        "url": "postman-echo.com/post"
       },
       "response": [
         {
